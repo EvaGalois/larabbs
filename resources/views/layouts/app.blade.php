@@ -9,7 +9,8 @@
   <!-- CSRF Token -->
   <meta name="csrf-token" content="{{ csrf_token() }}">
 
-  <title>@yield('title', 'LaraBBS') - iMath 论坛</title>
+  <title>@yield('title', '爱马仕') - iMath 论坛</title>
+  <meta name="description" content="@yield('description', 'iMath 爱马士')" />
 
   <!-- Styles -->
   <link href="{{ mix('css/app.css') }}" rel="stylesheet">
