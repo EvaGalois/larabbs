@@ -17066,6 +17066,10 @@ body {
   margin-top: 0px;
 }
 
+.navbar-static-top .nav-item img {
+  border-radius: 50%;
+}
+
 /* Sticky footer styles */
 
 html {
