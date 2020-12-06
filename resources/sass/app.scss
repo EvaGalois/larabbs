@@ -222,6 +222,19 @@ body {
   margin-bottom: 100px;
 }
 
+/* 回复列表 */
+
+.topic-reply {
+  a {
+      color: inherit;
+  }
+
+  .meta {
+      font-size: .9em;
+      color: #b3b3b3;
+  }
+}
+
 	/*谷歌、safari、qq浏览器、360浏览器滚动条样式*/
 /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
 ::-webkit-scrollbar  
