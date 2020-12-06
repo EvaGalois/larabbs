@@ -1530,7 +1530,7 @@ browserify-zlib@^0.2.0:
   dependencies:
     pako "~1.0.5"
 
-browserslist@^4.0.0, browserslist@^4.12.0, browserslist@^4.14.5, browserslist@^4.14.7:
+browserslist@^4.0.0, browserslist@^4.12.0, browserslist@^4.14.5, browserslist@^4.15.0:
   version "4.15.0"
   resolved "https://registry.npm.taobao.org/browserslist/download/browserslist-4.15.0.tgz?cache=0&sync_timestamp=1606864555212&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fbrowserslist%2Fdownload%2Fbrowserslist-4.15.0.tgz#3d48bbca6a3f378e86102ffd017d9a03f122bdb0"
   integrity sha1-PUi7ymo/N46GEC/9AX2aA/EivbA=
@@ -2043,11 +2043,11 @@ copy-descriptor@^0.1.0:
   integrity sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
 
 core-js-compat@^3.7.0:
-  version "3.8.0"
-  resolved "https://registry.npm.taobao.org/core-js-compat/download/core-js-compat-3.8.0.tgz#3248c6826f4006793bd637db608bca6e4cd688b1"
-  integrity sha1-MkjGgm9ABnk71jfbYIvKbkzWiLE=
+  version "3.8.1"
+  resolved "https://registry.npm.taobao.org/core-js-compat/download/core-js-compat-3.8.1.tgz?cache=0&sync_timestamp=1607215923501&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcore-js-compat%2Fdownload%2Fcore-js-compat-3.8.1.tgz#8d1ddd341d660ba6194cbe0ce60f4c794c87a36e"
+  integrity sha1-jR3dNB1mC6YZTL4M5g9MeUyHo24=
   dependencies:
-    browserslist "^4.14.7"
+    browserslist "^4.15.0"
     semver "7.0.0"
 
 core-util-is@~1.0.0:
@@ -2500,7 +2500,7 @@ dns-txt@^2.0.2:
 
 dom-serializer@0:
   version "0.2.2"
-  resolved "https://registry.npm.taobao.org/dom-serializer/download/dom-serializer-0.2.2.tgz?cache=0&sync_timestamp=1600026603144&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fdom-serializer%2Fdownload%2Fdom-serializer-0.2.2.tgz#1afb81f533717175d478655debc5e332d9f9bb51"
+  resolved "https://registry.npm.taobao.org/dom-serializer/download/dom-serializer-0.2.2.tgz?cache=0&sync_timestamp=1607193111136&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fdom-serializer%2Fdownload%2Fdom-serializer-0.2.2.tgz#1afb81f533717175d478655debc5e332d9f9bb51"
   integrity sha1-GvuB9TNxcXXUeGVd68XjMtn5u1E=
   dependencies:
     domelementtype "^2.0.1"
@@ -3991,7 +3991,7 @@ isobject@^3.0.0, isobject@^3.0.1:
 
 jest-worker@^25.4.0:
   version "25.5.0"
-  resolved "https://registry.npm.taobao.org/jest-worker/download/jest-worker-25.5.0.tgz#2611d071b79cea0f43ee57a3d118593ac1547db1"
+  resolved "https://registry.npm.taobao.org/jest-worker/download/jest-worker-25.5.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fjest-worker%2Fdownload%2Fjest-worker-25.5.0.tgz#2611d071b79cea0f43ee57a3d118593ac1547db1"
   integrity sha1-JhHQcbec6g9D7lej0RhZOsFUfbE=
   dependencies:
     merge-stream "^2.0.0"
@@ -7045,7 +7045,7 @@ yargs-parser@^18.1.2:
 
 yargs@^13.3.2:
   version "13.3.2"
-  resolved "https://registry.npm.taobao.org/yargs/download/yargs-13.3.2.tgz?cache=0&sync_timestamp=1605465967295&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fyargs%2Fdownload%2Fyargs-13.3.2.tgz#ad7ffefec1aa59565ac915f82dccb38a9c31a2dd"
+  resolved "https://registry.npm.taobao.org/yargs/download/yargs-13.3.2.tgz?cache=0&sync_timestamp=1607207963779&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fyargs%2Fdownload%2Fyargs-13.3.2.tgz#ad7ffefec1aa59565ac915f82dccb38a9c31a2dd"
   integrity sha1-rX/+/sGqWVZayRX4Lcyzipwxot0=
   dependencies:
     cliui "^5.0.0"
@@ -7061,7 +7061,7 @@ yargs@^13.3.2:
 
 yargs@^15.4.1:
   version "15.4.1"
-  resolved "https://registry.npm.taobao.org/yargs/download/yargs-15.4.1.tgz?cache=0&sync_timestamp=1605465967295&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fyargs%2Fdownload%2Fyargs-15.4.1.tgz#0d87a16de01aee9d8bec2bfbf74f67851730f4f8"
+  resolved "https://registry.npm.taobao.org/yargs/download/yargs-15.4.1.tgz?cache=0&sync_timestamp=1607207963779&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fyargs%2Fdownload%2Fyargs-15.4.1.tgz#0d87a16de01aee9d8bec2bfbf74f67851730f4f8"
   integrity sha1-DYehbeAa7p2L7Cv7909nhRcw9Pg=
   dependencies:
     cliui "^6.0.0"
