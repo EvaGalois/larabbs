@@ -18,20 +18,24 @@
 body {
   font-family: Helvetica, "Microsoft YaHei", Arial, sans-serif;
   font-size: 14px;
+  background-color: #343536;
 }
 
 /* header */
 
 .navbar-static-top {
-  border-color: #e7e7e7;
-  background-color: #fff;
+  // border-color: #e7e7e7;
+  // background-color: #fff;
   box-shadow: 0px 1px 11px 2px rgba(42, 42, 42, 0.1);
   border-top: 4px solid #00b5ad;
-  border-bottom: 1px solid #e8e8e8;
+  border-bottom: 1px solid #0f0f0f;
   margin-bottom: 40px;
   margin-top: 0px;
   .nav-item img{
     border-radius:50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #d8d8d8;
   }
 }
 
@@ -52,7 +56,7 @@ body {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
-  background-color: #000;
+  background-color: #122024;
 
   .container {
     padding-right: 15px;
@@ -90,7 +94,7 @@ body {
     }
 
     a {
-      color: #444444;
+      color: #b2b2b2;
     }
 
     .meta {
@@ -98,19 +102,94 @@ body {
       color: #b3b3b3;
 
       a {
-        color: #b3b3b3;
+        color: #888888;
       }
     }
 
     .badge {
-      background-color: #d8d8d8;
+      background-color: #202428;
     }
 
     hr {
       margin-top: 12px;
       margin-bottom: 12px;
       border: 0;
-      border-top: 1px solid #dcebf5;
+      border-top: 1px solid #101216;
+    }
+
+    img {
+      border-radius: 50%;
+      border-width: 1px;
+      border-color: #eeeeee;
+    }
+
+    .pagination {
+      display: inline-block;
+      padding-left: 0;
+      margin: 20px 0;
+      border-radius: 4px;
+    }
+
+    .pagination > li {
+      display: inline;
+    }
+
+    .pagination > li > a,
+    .pagination > li > span {
+        position: relative;
+        float: left;
+        padding: 6px 12px;
+        margin-left: -1px;
+        line-height: 1.42857143;
+        color: #428bca;
+        text-decoration: none;
+        background-color: rgb(43, 24, 24);
+        border: 1px solid #080808;
+    }
+    .pagination > li:first-child > a,
+    .pagination > li:first-child > span {
+        margin-left: 0;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+    .pagination > li:last-child > a,
+    .pagination > li:last-child > span {
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    .pagination > li > a:hover,
+    .pagination > li > span:hover,
+    .pagination > li > a:focus,
+    .pagination > li > span:focus {
+        color: #2a6496;
+        background-color: #304056;
+        border-color: #102038;
+    }
+    .pagination > .active > a,
+    .pagination > .active > span,
+    .pagination > .active > a:hover,
+    .pagination > .active > span:hover,
+    .pagination > .active > a:focus,
+    .pagination > .active > span:focus {
+        z-index: 2;
+        color: #fff;
+        cursor: default;
+        background-color: #304056;
+        border-color: #102038;
+    }
+    .pagination > .disabled > span,
+    .pagination > .disabled > span:hover,
+    .pagination > .disabled > span:focus,
+    .pagination > .disabled > a,
+    .pagination > .disabled > a:hover,
+    .pagination > .disabled > a:focus {
+        color: #777;
+        cursor: not-allowed;
+        background-color: #304056;
+        border-color: #102038;
+    }
+    .clear{
+        clear: both;
     }
   }
 }
@@ -126,21 +205,21 @@ body {
 {  
     width: 5px;  
     height: 110px;  
-    background-color: #F5F5F5;  
+    background-color: #202426;  
 }  
 /*定义滚动条轨道 内阴影+圆角*/  
 ::-webkit-scrollbar-track  
 {  
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);  
     border-radius: 10px;  
-    background-color: #F5F5F5;  
+    background-color: #122024;  
 }    
 /*定义滑块 内阴影+圆角*/  
 ::-webkit-scrollbar-thumb  
 {  
     border-radius: 10px;  
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
-    background-color: #bdbdbd;  
+    background-color: #122024;  
 }  
 /*滑块效果*/
 ::-webkit-scrollbar-thumb:hover
