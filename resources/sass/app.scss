@@ -235,6 +235,22 @@ body {
   }
 }
 
+/* 消息通知 */
+.notification-badge {
+  .badge {
+    font-size: 12px;
+    margin-top: 14px;
+  }
+
+  .badge-secondary {
+    background-color: #EBE8E8;
+  }
+
+  .badge-hint {
+    background-color: #d15b47 !important;
+  }
+}
+
 	/*谷歌、safari、qq浏览器、360浏览器滚动条样式*/
 /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
 ::-webkit-scrollbar  
