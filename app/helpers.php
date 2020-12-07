@@ -17,6 +17,11 @@ function make_excerpt($value, $length = 200)
     return Str::limit($excerpt, $length);
 }
 
+function model_admin_link($title, $model)
+{
+    return model_link($title, $model, 'admin');
+}
+
 function model_link($title, $model, $prefix = '')
 {
     // 获取数据模型的复数蛇形命名
