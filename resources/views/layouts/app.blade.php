@@ -9,8 +9,9 @@
   <!-- CSRF Token -->
   <meta name="csrf-token" content="{{ csrf_token() }}">
 
-  <title>@yield('title', '爱马仕') - iMath 论坛</title>
-  <meta name="description" content="@yield('description', 'iMath 爱马士')" />
+  <title>@yield('title', 'iMath') - {{ setting('site_name', 'iMath Club') }}</title>
+  <meta name="description" content="@yield('description', setting('seo_description', 'iMath Club'))" />
+  <meta name="keywords" content="@yield('keyword', setting('seo_keyword', 'iMathClub,MacMath,BlackMath'))" />
 
   <!-- Styles -->
   <link href="{{ mix('css/app.css') }}" rel="stylesheet">
