@@ -35,7 +35,7 @@
               {{ Auth::user()->notification_count }}
             </a>
           </li>
-        <li class="nav-item dropdown">
+        <li class="nav-i tem dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <img src="{{ Auth::user()->avatar }}" class="img-responsive img-circle" width="30px" height="30px">
             {{ Auth::user()->name }}
