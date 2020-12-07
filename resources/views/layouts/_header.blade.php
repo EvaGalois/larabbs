@@ -37,7 +37,7 @@
           </li>
         <li class="nav-i tem dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <img src="{{ Auth::user()->avatar }}" class="img-responsive img-circle" width="30px" height="30px">
+            <img src="{{ Auth::user()->avatar }}" class="img-responsive img-circle" width="30px" height="30px" style="border-radius:50%;border-style:solid;border-width:2px;border-color:#d8d8d8;">
             {{ Auth::user()->name }}
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
